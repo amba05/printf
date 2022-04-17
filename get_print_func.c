@@ -7,7 +7,8 @@
  */
 int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 {
-	print_t pr[] = {
+	print_t pr[] =
+       {
 		{"c", print_chr}, {"s", print_str},
 		{"i", print_int}, {"d", print_int},
 		{"b", print_bnr}, {"u", print_unt},
@@ -34,7 +35,7 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 		{" +i", prinpint}, {" +d", prinpint},
 		{"+ i", prinpint}, {"+ d", prinpint},
 		{" %", print_prg}, {NULL, NULL},
-	};
+	}
 	int i = 0, j = 0, first_index;
 
 	first_index = index;
@@ -48,11 +49,9 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 				break;
 		}
 		else
-		}
+	}
 			j = 0;
 			i++;
 			index = first_index;
-		}
-	}
 	return (pr[i].f);
 }
