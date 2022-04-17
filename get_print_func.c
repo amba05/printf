@@ -1,4 +1,4 @@
-#include "main.h"
+ #include "main.h"
 /**
  * get_print_func - selects the correct function to perform the operation.
  * @s: argument indentifier
@@ -48,7 +48,7 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 				break;
 		}
 		else
-		}
+		{
 			j = 0;
 			i++;
 			index = first_index;
