@@ -55,5 +55,5 @@ gcc -Wall -Werror -Wextra -pedantic *.c
 
 # Authors
 Amba Emmanuel
-Christianah Olorunda
+and Christianah Olorunda
 
