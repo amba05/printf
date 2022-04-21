@@ -16,35 +16,19 @@ int _printf(const char *format, ...);
 | Type |      Output       |
 | -----| ----------------- |
 | C    | single character  |
-|      |                   |
 | s    | string            |
-|      |                   |
 | r	   | string in reverse |
-| -----| ----------------- |
 | R    | string in rot13   |
-| -----| ----------------- |
 | d    | integer in decimal|
-| -----| ------------------|
 | i	   | integer           |
-| -----| ------------------|
-| -----| ------------------|
-| -----| ------------------|
 | %    | percent sign      |
-| -----| ------------------|
 | x	   | lowercase hex     |
-| -----| ------------------|
 | X    | uppercase hex     |
-| -----| ------------------|
 | b	   | binary            |
-| -----| ------------------|
 | o	   | octal             |
-| -----| ------------------|
 | u	   | unsigned          |
-| -----| ------------------|
 | p    | pointer           |
-| -----| ------------------|
 | F	   | expletive         |
-| -----| ------------------|
 
 ## EXAMPLE
 Character: printf("%c", 'Z'); Output:: Z
@@ -69,7 +53,7 @@ Integer: printf("%i", 5); Output: 5
 ## Compilation
 gcc -Wall -Werror -Wextra -pedantic *.c
 
-#Authors
+# Authors
 Amba Emmanuel
 Christianah Olorunda
 
