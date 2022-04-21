@@ -1,24 +1,24 @@
-#ALX PROJECT
+# ALX PROJECT
 This is the first group project for done by Amba Emmanuel and Christianah Olorunda for ALX Software Engineering program, which involves replicating a formatted output conversion for standard C program printf and calling it as _printf.
 
 ***
-##Printf
+## Printf
 A reconstruction of the standard printf function in C. printf returns the number of characters printed (excluding the null byte at the end of strings). We were not asked to handle flag characters, field width, precision, or length.
 
-##Description
+## Description
 The function printf writes output to standard output. The function writes under the control of a format string that specifies how subsequent arguments (accessed via the variable-length argument facilities of stdarg) are converted for output.
 
-##Prototype
+## Prototype
 int _printf(const char *format, ...);
 
-##Format Specifier
+## Format Specifier
 
 | Type |      Output       |
 | -----| ----------------- |
 | C    | single character  |
-| -----| ----------------- |
+|      |                   |
 | s    | string            |
-| -----| ----------------- |
+|      |                   |
 | r	   | string in reverse |
 | -----| ----------------- |
 | R    | string in rot13   |
@@ -46,14 +46,14 @@ int _printf(const char *format, ...);
 | F	   | expletive         |
 | -----| ------------------|
 
-##EXAMPLE
+## EXAMPLE
 Character: printf("%c", 'Z'); Output:: Z
 
 String: printf("%s", 'This is ALX team project.'); Output: This is ALX team project.
 
 Integer: printf("%i", 5); Output: 5
 
-##Project Requirements
+## Project Requirements
 . Allowed editors: vi, vim, emacs
 . All your files will be compiled on Ubuntu 20.04 LTS
 . Your programs and functions will be compiled with gcc using the flags -Wall -Werror -Wextra and -pedantic
@@ -66,7 +66,7 @@ Integer: printf("%i", 5); Output: 5
 . All your header files should be include guarded
 . Note that we will not provide the _putchar function for this project.
 
-##Compilation
+## Compilation
 gcc -Wall -Werror -Wextra -pedantic *.c
 
 #Authors
